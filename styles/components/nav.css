@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 0 14px 0;
+}
+.nav .nav-item {
+  text-decoration: none;
+  color: #282b2f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav .nav-item:hover {
+  text-decoration: underline;
+}

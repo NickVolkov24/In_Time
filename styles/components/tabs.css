@@ -1,0 +1,43 @@
+.tabs {
+  position: relative;
+  margin-bottom: 98px;
+}
+.tab,
+.tab-title {
+  display: inline-block;
+}
+.tab input[type="radio"] {
+  display: none;
+}
+.tab-title {
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 2px solid #009688;
+  border-bottom: none;
+  padding: 23px 69px;
+
+  color: #009688;
+}
+.tab-description {
+  position: absolute;
+  border-top: 2px solid #009688;
+  padding-top: 23px;
+  display: none;
+  color: #546e7a;
+  font-weight: 300;
+  line-height: 26px;
+}
+.tab :checked + .tab-title {
+  position: relative;
+  background-color: #009688;
+  z-index: 1;
+  color: #fefefe;
+}
+.tab :checked ~ .tab-description {
+  display: block;
+}
+
+.section-tab .title {
+  padding: 50px 0;
+}

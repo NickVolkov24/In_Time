@@ -1,0 +1,68 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+.header-list {
+  color: #282b2f;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.header-list li:first-child {display: flex;
+a}
+.header-list li:not(:first-child) {
+  padding-top: 6px;
+}
+
+.header-list li:first-child::before {
+  content: url(/images/call-answer.png);
+
+  margin-right: 15px;
+}
+
+.list.ordered-list {
+  list-style-type: decimal;
+}
+
+.ordered-list li:not(:first-child) {
+  padding-top: 28px;
+}
+
+.ordered-list li:first-child {
+  padding-top: 34px;
+}
+
+.list-title {
+  padding-top: 36px;
+  font-style: italic;
+  color: #546e7a;
+  font-size: 20px;
+}
+
+.section-list li:not(:first-child) {
+  padding-top: 26px;
+}
+
+.section-list li:first-child {
+  padding-top: 30px;
+}
+
+.section-list li::before {
+  content: "-";
+  margin-right: 13px;
+  width: 12px;
+  height: 2px;
+  color: #546e7a;
+}
+
+.list-link {
+  color: #1976d2;
+  font-family: "Rubik - Light Italic";
+  font-size: 16px;
+  font-style: italic;
+}

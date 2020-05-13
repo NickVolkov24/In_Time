@@ -1,0 +1,49 @@
+footer {
+  margin-top: 98px;
+  padding: 40px 0;
+  border-top: 1px solid #e0e9f0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-ball {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-inst {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-fb {
+  width: 11px;
+  height: 20px;
+}
+
+.icon-ld {
+  width: 18px;
+  height: 17px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon:not(:first-child) {
+  margin-right: 31px;
+}
+
+.icon:first-child {
+  margin-right: 20px;
+}
+
+.copyright {
+  color: #282b2f;
+  font-size: 14px;
+  font-weight: 400;
+}

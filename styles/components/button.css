@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  border-radius: 5px;
+  border: 2px solid #009688;
+  padding: 17px 90px;
+  color: #009688;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #009688;
+  cursor: pointer;
+}
+
+.button.button-primary {
+  padding: 17px 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-left: 15px;
+}
